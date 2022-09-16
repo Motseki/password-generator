@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    background-color: #1C1C1C;
+    color: white;
+}
+
+.container {
+    background: #273549; 
+    width: 650px;
+    height: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+    
+}
+
+button {
+    background: #10B981;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 3px;
+    color: whitesmoke;
+}
+span {
+    color: #10B981;
+}
+
+h2 {
+    color: grey;
+}
+.passwords {
+    display: flex;
+}
+
+.passwords p {
+    margin-right: 120px;
+}
+
+#password1-el, #password2-el {
+    background-color: #34495E;
+    padding: 10px 25px;
+    width: 150px;
+    height: 15px;
+    border-radius: 4px;
+    color: #10B981;
+}
