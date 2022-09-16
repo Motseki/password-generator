@@ -30,17 +30,22 @@ h2 {
 }
 .passwords {
     display: flex;
-}
-
-.passwords p {
-    margin-right: 120px;
+    border-top: 1px solid grey;
+    margin-top: 15px;
+    width: 485px;   
 }
 
 #password1-el, #password2-el {
     background-color: #34495E;
-    padding: 10px 25px;
-    width: 150px;
-    height: 15px;
+    width: 250px;
+    padding: 10px 25px; 
+    height: 30px;
     border-radius: 4px;
     color: #10B981;
 }
+
+#password1-el {
+    margin-right: 15px;
+}
+
+
